@@ -5,11 +5,11 @@ import { FaRegUser } from "react-icons/fa";
 
 
 const Navbar = () => {
-  const [isScrolled, SetIsScrolled] = useState(false)
+  const [isScrolled, SetIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      SetIsScrolled(window.scrollY > 100);
+      SetIsScrolled(window.scrollY > 50);
     }
 
     window.addEventListener("scroll", handleScroll)
