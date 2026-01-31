@@ -1,10 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { FaCartPlus } from "react-icons/fa";
 import { FaRegUser } from "react-icons/fa";
+import { Link } from 'react-router-dom';
+import { ShopContext } from './ShopContext';
 
 
 
-const Navbar = () => {
+  const Navbar = () => {
+  const {quantity} = useContext(ShopContext)
+
   const [isScrolled, SetIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -32,7 +36,14 @@ const Navbar = () => {
 
 
       <div className='flex items-center space-x-6'>
-        <FaCartPlus className='text-2xl cursor-pointer'/>
+
+        <Link to='/cart' className=' relative'>
+          <FaCartPlus className='text-2xl cursor-pointer'/>
+          {quantity > 0 && (
+            <span className=' absolute -top-2 -right-2 bg-red-500 text-white text-xs h-5 w-5 flex items-center justify-center rounded-full'>{quantity}</span>
+          )}
+        </Link>
+        
         <FaRegUser className='text-2xl cursor-pointer'/>
       </div>
     </div>

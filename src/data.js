@@ -47,7 +47,7 @@ export const data = {
 
 export const productsData = [
     {
-        _id: "a",
+        _id: 1,
         name: "Special Fried Rice With Chicken",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 100,
@@ -56,7 +56,7 @@ export const productsData = [
            date: 1716634345448,
             },
     {
-        _id: "ab",
+        _id: 2,
         name: "Freshly Baked Pepperoni Pizza",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 200,
@@ -65,7 +65,7 @@ export const productsData = [
             date: 1716621345448,
             },
     {
-        _id: "ac",
+        _id: 3,
         name: "Delicious Stir Fry Veggie Noodles ",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 220,
@@ -74,7 +74,7 @@ export const productsData = [
             date: 1716234545448,
             },
     {
-        _id: "ad",
+        _id: 4,
         name: "Cup of Tequilla Sunrise Cocktail",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 110,
@@ -83,7 +83,7 @@ export const productsData = [
              date: 1716621345448,
             },
     {
-        _id: "ae",
+        _id: 5,
         name: "Grilled Spicy Boneless Chicken",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 130,
@@ -92,7 +92,7 @@ export const productsData = [
             date: 1716622345448,
             },
     {
-        _id: "af",
+        _id: 6,
         name: "Spaghetti With Shrimps and Tomato Sauce",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 140,
@@ -101,7 +101,7 @@ export const productsData = [
             date: 1716623423448,
             },
     {
-        _id: "ag",
+        _id: 7,
         name: "Veggie Pizza With Cheese and Mushroom",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 190,
@@ -111,7 +111,7 @@ export const productsData = [
         
     },
     {
-        _id: "ah",
+        _id: 8,
         name: "Noodles With Moshroom Pepper and Peas",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 140,
@@ -122,7 +122,7 @@ export const productsData = [
         
     },
     {
-        _id: "ai",
+        _id: 9,
         name: "Rich Stir Native Fried Rice",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 100,
@@ -132,7 +132,7 @@ export const productsData = [
         
     },
     {
-        _id: "aj",
+        _id: 10,
         name: "Newly Baked Peppered Pizza",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 110,
@@ -142,7 +142,7 @@ export const productsData = [
         
     },
     {
-        _id: "ak",
+        _id: 11,
         name: "Mojito Cocktail With Lemon Ice Cubes",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 120,
@@ -152,7 +152,7 @@ export const productsData = [
         
     },
     {
-        _id: "al",
+        _id: 12,
         name: "Stir Fried Delicious Pasta With Olive",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 150,
@@ -163,7 +163,7 @@ export const productsData = [
         
     },
     {
-        _id: "am",
+        _id: 13,
         name: "Crunchy Chicken Chips With Sauce",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 130,
@@ -174,7 +174,7 @@ export const productsData = [
         
     },
     {
-        _id: "an",
+        _id: 14,
         name: "Boy Casaul Slim Fit Polo Shirt",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 160,

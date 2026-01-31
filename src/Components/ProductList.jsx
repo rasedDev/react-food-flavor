@@ -4,7 +4,7 @@ import { ShopContext } from './ShopContext'
 
 
 const ProductList = () => {
-  const {products} = useContext(ShopContext);
+  const {products, addToCart } = useContext(ShopContext);
 
   return (
     <div className='max-w-7xl mx-auto px-6 text-center mt-20'>
@@ -20,7 +20,7 @@ const ProductList = () => {
                   <h4 className='text-lg font-semibold text-gray-900'>{name}</h4>
                   <p className='text-gray-600'>$ {price}</p>
                 </div>
-                <button className='w-full py-2 mt-4 text-lg font-medium text-white bg-amber-500 rounded-md hover:bg-amber-600 transition duration-300 cursor-pointer'>Add To Cart</button>
+                <button onClick={() => addToCart(product, id)} className='w-full py-2 mt-4 text-lg font-medium text-white bg-amber-500 rounded-md hover:bg-amber-600 transition duration-300 cursor-pointer'>Add To Cart</button>
             </div>
           )
         })}
