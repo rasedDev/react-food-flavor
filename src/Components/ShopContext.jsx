@@ -38,7 +38,7 @@ const ShopContextProvider = ({children}) => {
 
       if(cartItem) {
         const newCart = cart.map((item) => 
-          item.id === id ? { ...item, amount : item.amount + 1 } : item );
+          item.id === id ? { ...item, amount: item.amount + 1 } : item );
           setCart(newCart);
           toast.success("Quantity updated");
       } else {

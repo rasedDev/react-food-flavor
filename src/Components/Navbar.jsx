@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { FaCartPlus } from "react-icons/fa";
 import { FaRegUser } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { ShopContext } from './ShopContext';
 
 
@@ -9,6 +9,8 @@ import { ShopContext } from './ShopContext';
   const Navbar = () => {
   const {quantity} = useContext(ShopContext)
 
+  
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isScrolled, SetIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -25,12 +27,23 @@ import { ShopContext } from './ShopContext';
     } px-24 flex justify-between items-center`}>
       <div className=' text-2xl font-bold text-black cursor-pointer'>FoodFlavor</div>
       <div>
+        
         <ul className=' flex space-x-6 text-lg font-semibold uppercase'>
-          <li className={`cursor-pointer transition ${isScrolled ? ' hover:text-orange-500' : 'hover:text-white'}`}>Home</li>
-          <li className={`cursor-pointer transition ${isScrolled ? ' hover:text-orange-500' : 'hover:text-white'}`}>Foods</li>
-          <li className={`cursor-pointer transition ${isScrolled ? ' hover:text-orange-500' : 'hover:text-white'}`}>New Taste</li> 
-          <li className={`cursor-pointer transition ${isScrolled ? ' hover:text-orange-500' : 'hover:text-white'}`}>Contact</li>
-          <li className={`cursor-pointer transition ${isScrolled ? ' hover:text-orange-500' : 'hover:text-white'}`}>About</li>
+          <li>
+            <NavLink to='/'  className={({ isActive }) => isActive ? "text-rose-600 font-medium underline" : "hover:text-rose-600"}>Home</NavLink>
+          </li>
+          <li>
+            <NavLink to='/shopfoods' className={({ isActive }) => isActive ? "text-rose-600 font-medium underline" : "hover:text-rose-600"}>Foods</NavLink>
+          </li>
+          <li>
+            <NavLink to='/new-taste' className={({ isActive }) => isActive ? "text-rose-600 font-medium underline" : "hover:text-rose-600"}>New Taste</NavLink>
+          </li>
+          <li>
+            <NavLink to='/contact' className={({ isActive }) => isActive ? "text-rose-600 font-medium underline" : "hover:text-rose-600"}>Contact</NavLink>
+          </li>
+          <li>
+            <NavLink to='/about' className={({ isActive }) => isActive ? "text-rose-600 font-medium underline" : "hover:text-rose-600"}>About</NavLink>
+          </li>
         </ul>
       </div>
 

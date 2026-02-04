@@ -16,8 +16,8 @@ const Hero = () => {
         </div>
 
         <div className='max-w-1/2 mt-12'>
-          <h1 className=' text-6xl font-bold text-white -mt-80 leading-tight -ml-4'>DELICIOUS MEAL</h1>
-          <p className='text-lg font-semibold text-white -ml-4'>Choose from delicious food at affordable prices. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h1 className=' text-6xl font-bold text-rose-600 -mt-80 leading-tight -ml-4'>DELICIOUS MEAL</h1>
+          <p className='text-lg font-semibold text-gray-800 -ml-4'>Choose from delicious food at affordable prices. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
       </div>
     </div>

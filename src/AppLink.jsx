@@ -7,6 +7,9 @@ import ProductDetails from "./pages/ProductDetails";
 import Cart from "./Components/Cart";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Contacts from "./pages/Contacts";
+import About from "./pages/About";
+import ShopFoods from "./Components/ShopFoods";
 
 const AppLink = () => {
   return (
@@ -27,6 +30,9 @@ const AppLink = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/product/:id" element={<ProductDetails />} />
+        <Route path="/contact" element={<Contacts />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/shopfoods" element={<ShopFoods />} />
       </Routes>
 
       <Footer />
