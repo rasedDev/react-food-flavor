@@ -3,6 +3,7 @@ import { FaCartPlus } from "react-icons/fa";
 import { FaRegUser } from "react-icons/fa";
 import { Link, NavLink } from 'react-router-dom';
 import { ShopContext } from './ShopContext';
+import logoFoodFlavor from '../assets/logo-foodFlavor.png'
 
 
 
@@ -23,9 +24,9 @@ import { ShopContext } from './ShopContext';
   },[])
 
   return (
-    <div className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${isScrolled ? "bg-white text-black shadow-md shadow-gray-300 py-4" : " bg-transparent py-6"
+    <div className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${isScrolled ? "bg-white text-black shadow-md shadow-gray-300 py-4" : " bg-transparent"
     } px-24 flex justify-between items-center`}>
-      <div className=' text-2xl font-bold text-black cursor-pointer'>FoodFlavor</div>
+      <div className='h-16 w-16 items-center'><img src={logoFoodFlavor} alt="" /></div>
       <div>
         
         <ul className=' flex space-x-6 text-lg font-semibold uppercase'>
