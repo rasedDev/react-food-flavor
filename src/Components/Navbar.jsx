@@ -36,7 +36,7 @@ import { ShopContext } from './ShopContext';
             <NavLink to='/shopfoods' className={({ isActive }) => isActive ? "text-rose-600 font-medium underline" : "hover:text-rose-600"}>Foods</NavLink>
           </li>
           <li>
-            <NavLink to='/new-taste' className={({ isActive }) => isActive ? "text-rose-600 font-medium underline" : "hover:text-rose-600"}>New Taste</NavLink>
+            <NavLink to='/new-taste' className={({ isActive }) => isActive ? "text-rose-600 font-medium underline" : "hover:text-rose-600"}>New Tasty</NavLink>
           </li>
           <li>
             <NavLink to='/contact' className={({ isActive }) => isActive ? "text-rose-600 font-medium underline" : "hover:text-rose-600"}>Contact</NavLink>

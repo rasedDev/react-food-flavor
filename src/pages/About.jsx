@@ -16,7 +16,7 @@ const About = () => {
       <div className=' flex flex-col md:px-10 md:flex-row mt-5 px-5 gap-40 md:mx-30'>
         <div className=' flex-2'>
             <p className='  mb-2 font-semibold  mt-2'>We start our journey from 2014.We are the first and top Furniture shop in Bangladesh. Raj Furniture offers a unique selection of stylish, contemporary, and chic furniture online. Our online furniture range includes sofas, beds, dining tables, Chair, Lamp, TV units, wardrobes, dressing tables, and lots more.</p>
-            <p className=' font-semibold mt-4'>All our wooden furniture designs are available online at <NavLink to= "/" className=" text-blue-600 hover:text-red-400"> www.rajfurniture.com </NavLink> On our portal. you can browse as many furniture designs across categories as you like, sort and filter, compare options, easily select and buy the ones you like, and stay updated about new and contemporary designs.</p>
+            <p className=' font-semibold mt-4'>All our wooden furniture designs are available online at <NavLink to= "/" className=" text-blue-600 hover:text-red-400"> www.foodflavor.com </NavLink> On our portal. you can browse as many furniture designs across categories as you like, sort and filter, compare options, easily select and buy the ones you like, and stay updated about new and contemporary designs.</p>
         </div>
         <div className=' flex-1'>
           <p className=' font-bold mt-3'>Our Mission</p>

@@ -10,6 +10,9 @@ import "react-toastify/dist/ReactToastify.css";
 import Contacts from "./pages/Contacts";
 import About from "./pages/About";
 import ShopFoods from "./Components/ShopFoods";
+import NewTaste from "./pages/NewTaste";
+import ScrollToTop from "./Components/ScrollToTop";
+import ProductList from "./Components/ProductList";
 
 const AppLink = () => {
   return (
@@ -26,14 +29,20 @@ const AppLink = () => {
         pauseOnHover
       />
       <Navbar />
+      
+        <ScrollToTop />
+      
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<ProductList />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/product/:id" element={<ProductDetails />} />
         <Route path="/contact" element={<Contacts />} />
         <Route path="/about" element={<About />} />
         <Route path="/shopfoods" element={<ShopFoods />} />
+        <Route path="/new-taste" element={<NewTaste />} />
       </Routes>
+      
 
       <Footer />
     </div>

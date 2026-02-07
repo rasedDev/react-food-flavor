@@ -2,9 +2,19 @@ import React, { useContext } from "react";
 import { ShopContext } from "./ShopContext";
 import { FiTrash2 } from "react-icons/fi";
 import { IoMdAdd, IoMdRemove } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
-  const {cart, addToCart, removeFromCart, clearCart, increaseQuantity, decreaseQuantity, quantity, total} = useContext(ShopContext);
+  const {
+    cart,
+    addToCart,
+    removeFromCart,
+    clearCart,
+    increaseQuantity,
+    decreaseQuantity,
+    quantity,
+    total,
+  } = useContext(ShopContext);
 
   return (
     <div className="mt-26 max-w-7xl mx-auto px-6 flex flex-col lg:flex-row gap-8">
@@ -14,7 +24,10 @@ const Cart = () => {
         <div className="flex justify-between items-center border-b pb-4">
           <h1 className="text-2xl font-semibold">Shopping Cart</h1>
           <h1 className="text-lg">Items: ({quantity}) </h1>
-          <FiTrash2 onClick={clearCart} className=" text-red-500 hover:text-red-600 text-2xl cursor-pointer cursor-pointer"/>
+          <FiTrash2
+            onClick={clearCart}
+            className=" text-red-500 hover:text-red-600 text-2xl cursor-pointer cursor-pointer"
+          />
         </div>
 
         {/* subHeader */}
@@ -29,34 +42,59 @@ const Cart = () => {
         <div>
           {cart.length > 0 ? (
             cart.map((item) => {
-              const {id, image, name, price, amount} = item; 
+              const { id, image, name, price, amount } = item;
               return (
-                <div key={id} className=" grid grid-cols-4 items-center py-4 border-b text-gray-700"> 
+                <div
+                  key={id}
+                  className=" grid grid-cols-4 items-center py-4 border-b text-gray-700"
+                >
+                  <Link to={`/product/${id}`}>
+                    <img
+                      src={image}
+                      alt=""
+                      className=" w-16 h-16 rounded-md object-cover"/>
+                  </Link>
                   <div className=" flex items-center space-x-4">
-                    <img src={image} alt="" className=" w-16 h-16 rounded-md object-cover"/>
+                    
                     <div>
                       <h3 className=" font-semibold">{name}</h3>
-                      <button onClick={() => removeFromCart(id)} className=" text-red-500 hover:text-red-600 text-sm flex items-center gap-1 mt-2 cursor-pointer"><FiTrash2 /> Remove</button>
+                      <button
+                        onClick={() => removeFromCart(id)}
+                        className=" text-red-500 hover:text-red-600 text-sm flex items-center gap-1 mt-2 cursor-pointer"
+                      >
+                        <FiTrash2 /> Remove
+                      </button>
                     </div>
                   </div>
 
                   <div className="flex items-center space-x-3">
-                    <button onClick={() => decreaseQuantity(id)} className="w-8 h-6 bg-gray-200 hover:bg-gray-300 rounded-full flex items-center justify-center text-xl cursor-pointer "> <IoMdRemove /> </button>
+                    <button
+                      onClick={() => decreaseQuantity(id)}
+                      className="w-8 h-6 bg-gray-200 hover:bg-gray-300 rounded-full flex items-center justify-center text-xl cursor-pointer "
+                    >
+                      {" "}
+                      <IoMdRemove />{" "}
+                    </button>
                     <span className="text-lg">{amount}</span>
-                    <button onClick={() => increaseQuantity(id)} className="w-8 h-6 bg-gray-200 hover:bg-gray-300 rounded-full flex items-center justify-center text-xl cursor-pointer"> <IoMdAdd /> </button>
+                    <button
+                      onClick={() => increaseQuantity(id)}
+                      className="w-8 h-6 bg-gray-200 hover:bg-gray-300 rounded-full flex items-center justify-center text-xl cursor-pointer"
+                    >
+                      {" "}
+                      <IoMdAdd />{" "}
+                    </button>
                   </div>
 
                   <p className=" text-lg font-medium">$ {price}</p>
                   <p className=" text-lg font-semibold">$ {price * amount}</p>
                 </div>
-              )    
+              );
             })
           ) : (
             <p className=" text-gray-500 mt-4">Your cart is empty</p>
           )}
         </div>
       </div>
-
 
       {/* Right Section */}
       <div className=" lg:w-1/3 bg-gray-100 p-6 rounded-lg pb-4">
@@ -80,11 +118,12 @@ const Cart = () => {
           <span className="text-gray-700">Total Cost</span>
           <span className=" font-medium">$ {isNaN(total) ? 0 : total}</span>
         </div>
-        <button className=" w-full bg-green-500 text-white py-3 mt-4 rounded text-lg cursor-pointer">CHECKOUT</button>
+        <button className=" w-full bg-green-500 text-white py-3 mt-4 rounded text-lg cursor-pointer">
+          CHECKOUT
+        </button>
       </div>
     </div>
-
-  ) 
+  );
 };
 
 export default Cart;
