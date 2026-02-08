@@ -26,7 +26,7 @@ const Cart = () => {
           <h1 className="text-lg">Items: ({quantity}) </h1>
           <FiTrash2
             onClick={clearCart}
-            className=" text-red-500 hover:text-red-600 text-2xl cursor-pointer cursor-pointer"
+            className=" text-red-500 hover:text-red-600 text-2xl  cursor-pointer"
           />
         </div>
 

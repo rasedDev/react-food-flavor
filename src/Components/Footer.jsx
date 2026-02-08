@@ -2,6 +2,7 @@ import React from 'react'
 import { FaTwitter } from 'react-icons/fa'
 import { FaFacebook, FaFacebookF, FaInstagram } from 'react-icons/fa6'
 import { Link, NavLink } from 'react-router-dom'
+import logoFoodFlvr from '../assets/logo-foodflv.png'
 
 
 const Footer = () => {
@@ -11,7 +12,8 @@ const Footer = () => {
 
         {/* logo and deatils*/}
         <div className=' md:col-span-2'>
-          <h2 className='text-2xl font-bold text-black mb-4'> FoodFlavor<Link to="/"></Link> </h2>
+          <div className='  py-2 '><Link to="/"><img src={logoFoodFlvr} alt="" className=' justify-center h-15 w-40'/></Link></div>
+
           <p className=' md:mr-12'>Your Company is dedicated to providing the best quality products to enhance your home and lifestyle. We combine style and comfort to transform your living spaces into modern sanctuaries.</p>
         </div>
         {/* services div */}

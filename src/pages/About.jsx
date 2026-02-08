@@ -1,15 +1,17 @@
 import React from 'react'
 import aboutimge from "../assets/aboutimgfd.png";
 import { NavLink } from "react-router-dom";
-
-
-
+import { motion } from "motion/react"
 
 
 
 const About = () => {
   return (
-    <div className='w-full min-h-screen  mx-auto'>
+    <motion.div className='w-full min-h-screen  mx-auto'
+    initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeIn" }}
+    >
       <div className=' bg-center bg-cover mt-16  h-90 py-40 p-4  bg-gray-500 text-gray-600 ' style={{backgroundImage: `Url(${aboutimge})`}}> </div>
 
       <h3 className='text-rose-600'></h3>
@@ -36,7 +38,7 @@ const About = () => {
           Growth and Prosperity</p>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
