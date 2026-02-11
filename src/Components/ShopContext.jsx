@@ -10,10 +10,17 @@ import { toast } from "react-toastify";
 const ShopContextProvider = ({children}) => {
     const [products, setProducts ] = useState(productsData)
 
-    const [cart, setCart] = useState([])
+    //Loading cart from local storage
+    const [cart, setCart] = useState(() => { const savedCart = localStorage.getItem("cart"); return savedCart ? JSON.parse(savedCart) : []; });
+
     
     const [quantity, setQuantity] = useState(0)
     const [total, setTotal] = useState(0)
+
+    
+    //Save to local storage when cart changes
+    useEffect(() => { localStorage.setItem("cart", JSON.stringify(cart)); }, [cart]);
+
 
     useEffect(() => {
       const totalPrice = cart.reduce((accumulator, item) => {

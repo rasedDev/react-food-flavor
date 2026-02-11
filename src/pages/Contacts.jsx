@@ -5,6 +5,7 @@ import contactUsImg from "../assets/contactus-beauty.png"
 import { MdOutlineMapsHomeWork } from "react-icons/md";
 import { FaPhone } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import { motion } from "motion/react"
 
 
 
@@ -12,7 +13,11 @@ import { IoMdMail } from "react-icons/io";
 
 const Contacts = () => {
   return (
-    <section className=' min-h-screen  mx-auto '>
+    <motion.section className=' min-h-screen  mx-auto'
+      initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeIn" }}
+    >
       <div className=' bg-center bg-cover mt-16  h-90 py-40 p-4  bg-gray-500 text-gray-600 ' style={{backgroundImage: `Url(${contacthedr})`}}> </div>
       <div className="min-h-screen bg-gray-50 flex items-center justify-center p-6">
         <div className="max-w-5xl w-full bg-white shadow-lg rounded-lg grid grid-cols-1 md:grid-cols-2 overflow-hidden">
@@ -27,12 +32,12 @@ const Contacts = () => {
             <p className=' text-center font-bold text-3xl mb-10'>Contuct Us</p>
           
           <h2 className='font-semibold text-2xl'>OUR OFFICE</h2>
-          <p className='flex gap-2 items-center text-lg'><MdOutlineMapsHomeWork className='text-2xl text-gray-600'/> Toyenbee Circular Road, Motijheel, Dhaka</p>
+          <p className='flex gap-2 items-center text-lg'><MdOutlineMapsHomeWork className='text-2xl text-gray-600'/> Toyenbee Circular Road, Motijheel, Dhaka.</p>
           <p className=' flex gap-2 items-center  text-lg'> <IoMdMail className='text-2xl text-gray-600'/> info-foodflavor@foodflavor.com</p>
           <p className='flex gap-2 items-center text-lg'> <FaPhone className='text-lg text-gray-600'/> +1 (666) 000-0000</p>
 
           <h3 className='mt-5 text-2xl font-semibold'>OPENING TIME</h3>
-          <p className=' text-lg'>Saturday – Thursday : 9.00 AM- 6.00 PM</p>
+          <p className=' text-lg'>Saturday – Thursday : 9.00 AM - 6.00 PM</p>
           </div>       
         </div> 
          
@@ -93,7 +98,7 @@ const Contacts = () => {
         </div>
       </div>
 
-    </section>
+    </motion.section>
   )
 }
 

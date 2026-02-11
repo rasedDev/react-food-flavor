@@ -18,8 +18,10 @@ const About = () => {
       <h2 className=' text-3xl items-center mt-20 justify-center text-center ml-5 mr-5 font-semibold mb-4 border-b border-gray-300 '> <span className=' text-lg text-rose-600'>WHO WE ARE</span><br /> About Us Food-Flavor</h2>
       <div className=' flex flex-col md:px-10 md:flex-row mt-5 px-5 gap-40 md:mx-30'>
         <div className=' flex-2'>
-            <p className='  mb-2 font-semibold  mt-2'>Made fresh every day- That’s what we stand for. We have always been believed in premium quality <NavLink to= "/" className=" text-blue-600 hover:text-red-400"> www.foodflavor.com </NavLink> We do not compromise with product quality and hygiene. The company has adopted ISO- 22000:2018 as a guiding principle of its food and safety management system. Also, our company is HACCP and Halal certified which ensures that only the best quality products are reached to the consumers’ table. We source the best raw material from the local and foreign markets.</p>
+            <p className='  mb-2 font-semibold  mt-2'>Welcome to our food haven, <NavLink to= "/" className=" text-blue-600 hover:text-red-400"> www.foodflavor.com </NavLink>  where flavor meets freshness. We serve delicious meals crafted with love, using the finest ingredients. From hearty breakfasts to gourmet dinners, every bite tells a story. Explore our menu, savor unique tastes, and enjoy a dining experience that celebrates passion for food.</p>
+
             <p className=' font-semibold mt-4'>Currently, We are operating over 170  bakery outlets in major cities like Dhaka, Chittagong, and Sylhet of Bangladesh. Serving local market with good reputation Food Flavor Company Limited is also exporting different cookies and rusks in Europe, USA, Middle East, and some Asian Countries.</p>
+            
             <p className=' font-semibold mt-4'>Diversity and equity are at the heart of our values and growth strategy. We focus on creating a healthy work environment.</p>
             
         </div>

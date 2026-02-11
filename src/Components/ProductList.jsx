@@ -27,7 +27,7 @@ const ProductList = () => {
         Our Awesome Foods
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-6">
         {visibleProducts.map((product) => {
           const { id, image, name, price } = product;
           const isInCart = cart.some(item => item.id === id); // ✅ check cart
@@ -35,7 +35,7 @@ const ProductList = () => {
           return (
             <div
               key={id}
-              className="bg-white border border-gray-200 rounded-lg p-4 shadow-md hover:shadow-lg transition-transform duration-200 hover:transition-y-1"
+              className="bg-white border border-gray-200 rounded-lg p-4 shadow-md hover:shadow-lg transition-transform duration-200 hover:transition-y-1 flex flex-col h-full"
             >
               <Link to={`/product/${id}`}>
                 <img
@@ -45,9 +45,9 @@ const ProductList = () => {
                 />
               </Link>
 
-              <div className="mt-4">
-                <h4 className="text-lg font-semibold text-gray-900">{name}</h4>
-                <p className="text-gray-600">$ {price}</p>
+              <div className=" mt-4 grow">
+                <h4 className="text-lg font-semibold text-gray-900  ">{name}</h4>
+                <p className="text-gray-600 text-md">Price $ {price}</p>
               </div>
         
               <button onClick={() => addToCart(product, id)}
