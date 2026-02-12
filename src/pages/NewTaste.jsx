@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { FaCartPlus } from "react-icons/fa";
 import Homematerial from './Homematerial';
 import btnIcon from '../assets/button-icon.png';
+import Rating from '../Components/Rating';
 
 const NewTaste = () => {
   const { products, addToCart, cart } = useContext(ShopContext);
@@ -60,7 +61,8 @@ const NewTaste = () => {
 
                 <div className='mt-4'>
                   <h4 className='text-lg font-semibold text-gray-900'>{name}</h4>
-                  <p className='text-gray-600'>$ {price}</p>
+                  <Rating rating={product.rating}/>
+                  <p className='text-gray-600'>Price $ {price}</p>
                 </div>
 
                 <button onClick={() => addToCart(product, id)}

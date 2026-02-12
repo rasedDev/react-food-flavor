@@ -107,6 +107,7 @@ export const productsData = [
     {
         id: 1,
         name: "Special Fried Rice With Chicken",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 32,
         image: food1 ,
@@ -116,6 +117,7 @@ export const productsData = [
     {
         id: 2,
         name: "Freshly Baked Pepperoni Pizza",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 31,
         image: food2,
@@ -125,6 +127,7 @@ export const productsData = [
     {
         id: 3,
         name: "Delicious Stir Fry Veggie Noodles ",
+        rating: 4,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 30,
         image: food3,
@@ -134,6 +137,7 @@ export const productsData = [
     {
         id: 4,
         name: "Cup of Tequilla Sunrise Cocktail",
+        rating: 3,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 37,
         image: food4,
@@ -143,6 +147,7 @@ export const productsData = [
     {
         id: 5,
         name: "Grilled Spicy Boneless Chicken",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 31,
         image: food5,
@@ -152,6 +157,7 @@ export const productsData = [
     {
         id: 6,
         name: "Spaghetti With Shrimps and Tomato Sauce",
+        rating: 3,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 34,
         image: food6,
@@ -161,6 +167,7 @@ export const productsData = [
     {
         id: 7,
         name: "Veggie Pizza With Cheese and Mushroom",
+        rating: 4,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 33,
         image: food7,
@@ -171,6 +178,7 @@ export const productsData = [
     {
         id: 8,
         name: "Noodles With Moshroom Pepper and Peas",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 35,
         image: food8,
@@ -182,6 +190,7 @@ export const productsData = [
     {
         id: 9,
         name: "Rich Stir Native Fried Rice",
+        rating: 3,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 38,
         image: food9,
@@ -192,6 +201,7 @@ export const productsData = [
     {
         id: 10,
         name: "Newly Baked Peppered Pizza",
+        rating: 4,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 34,
         image: food10,
@@ -202,6 +212,7 @@ export const productsData = [
     {
         id: 11,
         name: "Mojito Cocktail With Lemon Ice Cubes",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 31,
         image: food11,
@@ -212,6 +223,7 @@ export const productsData = [
     {
         id: 12,
         name: "Stir Fried Delicious Pasta With Olive",
+        rating: 3,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 30,
         image: food12,
@@ -223,6 +235,7 @@ export const productsData = [
     {
         id: 13,
         name: "Crunchy Chicken Chips With Sauce",
+        rating: 4,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 36,
         image: food13,
@@ -234,6 +247,7 @@ export const productsData = [
     {
         id: 14,
         name: "Boy Casaul Slim Fit Polo Shirt",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 37,
         image: food14,
@@ -245,6 +259,7 @@ export const productsData = [
     {
         id: 15,
         name: "Special Fried Rice With Chicken",
+        rating: 3,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 11,
         image: food15 ,
@@ -254,6 +269,7 @@ export const productsData = [
     {
         id: 16,
         name: "Freshly Baked Pepperoni Pizza",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 9,
         image: food16,
@@ -263,6 +279,7 @@ export const productsData = [
     {
         id: 17,
         name: "Delicious Stir Fry Veggie Noodles ",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 12,
         image: food17,
@@ -272,6 +289,7 @@ export const productsData = [
     {
         id: 18,
         name: "Cup of Tequilla Sunrise Cocktail",
+        rating: 4,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 13,
         image: food18,
@@ -281,6 +299,7 @@ export const productsData = [
     {
         id: 19,
         name: "Grilled Spicy Boneless Chicken",
+        rating: 4,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 9,
         image: food19,
@@ -290,6 +309,7 @@ export const productsData = [
     {
         id: 20,
         name: "Spaghetti With Shrimps and Tomato Sauce",
+        rating: 3,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 10,
         image: food20,
@@ -299,6 +319,7 @@ export const productsData = [
     {
         id: 21,
         name: "Veggie Pizza With Cheese and Mushroom",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 14,
         image: food21,
@@ -309,6 +330,7 @@ export const productsData = [
     {
         id: 22,
         name: "Noodles With Moshroom Pepper and Peas",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 12,
         image: food22,
@@ -320,6 +342,7 @@ export const productsData = [
     {
         id: 23,
         name: "Rich Stir Native Fried Rice",
+        rating: 4,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 11,
         image: food23,
@@ -330,6 +353,7 @@ export const productsData = [
     {
         id: 24,
         name: "Newly Baked Peppered Pizza",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 13,
         image: food24,
@@ -340,6 +364,7 @@ export const productsData = [
     {
         id: 25,
         name: "Mojito Cocktail With Lemon Ice Cubes",
+        rating: 3,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 8,
         image: food25,
@@ -350,6 +375,7 @@ export const productsData = [
     {
         id: 26,
         name: "Stir Fried Delicious Pasta With Olive",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 12,
         image: food26,
@@ -361,6 +387,7 @@ export const productsData = [
     {
         id: 27,
         name: "Crunchy Chicken Chips With Sauce",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 13,
         image: food27,
@@ -372,6 +399,7 @@ export const productsData = [
     {
         id: 28,
         name: "Boy Casaul Slim Fit Polo Shirt",
+        rating: 3,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 11,
         image: food28,
@@ -383,6 +411,7 @@ export const productsData = [
     {
         id: 29,
         name: "Special Fried Rice With Chicken",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 16,
         image: food29 ,
@@ -392,6 +421,7 @@ export const productsData = [
     {
         id: 30,
         name: "Freshly Baked Pepperoni Pizza",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 18,
         image: food30,
@@ -401,6 +431,7 @@ export const productsData = [
     {
         id: 31,
         name: "Delicious Stir Fry Veggie Noodles ",
+        rating: 4,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 22,
         image: food31,
@@ -410,6 +441,7 @@ export const productsData = [
     {
         id: 32,
         name: "Cup of Tequilla Sunrise Cocktail",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 20,
         image: food32,
@@ -419,6 +451,7 @@ export const productsData = [
     {
         id: 33,
         name: "Grilled Spicy Boneless Chicken",
+        rating: 3,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 23,
         image: food33,
@@ -428,6 +461,7 @@ export const productsData = [
     {
         id: 34,
         name: "Spaghetti With Shrimps and Tomato Sauce",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 25,
         image: food34,
@@ -437,6 +471,7 @@ export const productsData = [
     {
         id: 35,
         name: "Veggie Pizza With Cheese and Mushroom",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 24,
         image: food35,
@@ -447,6 +482,7 @@ export const productsData = [
     {
         id: 36,
         name: "Noodles With Moshroom Pepper and Peas",
+        rating: 4,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 17,
         image: food36,
@@ -458,6 +494,7 @@ export const productsData = [
     {
         id: 37,
         name: "Special Fried Rice With Chicken",
+        rating: 3,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 32,
         image: food37 ,
@@ -467,6 +504,7 @@ export const productsData = [
     {
         id: 38,
         name: "Freshly Baked Pepperoni Pizza",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 31,
         image: food38,
@@ -476,6 +514,7 @@ export const productsData = [
     {
         id: 39,
         name: "Delicious Stir Fry Veggie Noodles ",
+        rating: 4,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 30,
         image: food39,
@@ -485,6 +524,7 @@ export const productsData = [
     {
         id: 40,
         name: "Cup of Tequilla Sunrise Cocktail",
+        rating: 3,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 37,
         image: food40,
@@ -494,6 +534,7 @@ export const productsData = [
     {
         id: 41,
         name: "Grilled Spicy Boneless Chicken",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 31,
         image: food41,
@@ -503,6 +544,7 @@ export const productsData = [
             {
         id: 42,
         name: "Special Fried Rice With Chicken",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 32,
         image: food42 ,
@@ -512,6 +554,7 @@ export const productsData = [
     {
         id: 43,
         name: "Freshly Baked Pepperoni Pizza",
+        rating: 3,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 31,
         image: food43,
@@ -521,6 +564,7 @@ export const productsData = [
     {
         id: 44,
         name: "Delicious Stir Fry Veggie Noodles ",
+        rating: 4,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 30,
         image: food44,
@@ -530,6 +574,7 @@ export const productsData = [
     {
         id: 45,
         name: "Cup of Tequilla Sunrise Cocktail",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 37,
         image: food45,
@@ -539,6 +584,7 @@ export const productsData = [
     {
         id: 46,
         name: "Grilled Spicy Boneless Chicken",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 31,
         image: food46,
@@ -548,6 +594,7 @@ export const productsData = [
             {
         id: 47,
         name: "Special Fried Rice With Chicken",
+        rating: 4,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 32,
         image: food47 ,
@@ -557,6 +604,7 @@ export const productsData = [
     {
         id: 48,
         name: "Freshly Baked Pepperoni Pizza",
+        rating: 3,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 31,
         image: food48,
@@ -566,6 +614,7 @@ export const productsData = [
     {
         id: 49,
         name: "Delicious Stir Fry Veggie Noodles ",
+        rating: 4,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 30,
         image: food49,
@@ -575,6 +624,7 @@ export const productsData = [
     {
         id: 50,
         name: "Cup of Tequilla Sunrise Cocktail",
+        rating: 3,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 37,
         image: food50,
@@ -584,6 +634,7 @@ export const productsData = [
     {
         id: 51,
         name: "Grilled Spicy Boneless Chicken",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 31,
         image: food51,
@@ -593,6 +644,7 @@ export const productsData = [
             {
         id: 52,
         name: "Special Fried Rice With Chicken",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 32,
         image: food52 ,
@@ -602,6 +654,7 @@ export const productsData = [
     {
         id: 53,
         name: "Freshly Baked Pepperoni Pizza",
+        rating: 3,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 31,
         image: food53,
@@ -611,6 +664,7 @@ export const productsData = [
     {
         id: 54,
         name: "Delicious Stir Fry Veggie Noodles ",
+        rating: 4,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 30,
         image: food54,
@@ -620,6 +674,7 @@ export const productsData = [
     {
         id: 55,
         name: "Cup of Tequilla Sunrise Cocktail",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 37,
         image: food55,
@@ -629,6 +684,7 @@ export const productsData = [
     {
         id: 56,
         name: "Grilled Spicy Boneless Chicken",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 31,
         image: food56,
@@ -638,6 +694,7 @@ export const productsData = [
             {
         id: 57,
         name: "Special Fried Rice With Chicken",
+        rating: 4,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 32,
         image: food57 ,
@@ -647,6 +704,7 @@ export const productsData = [
     {
         id: 58,
         name: "Freshly Baked Pepperoni Pizza",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 31,
         image: food58,
@@ -656,6 +714,7 @@ export const productsData = [
     {
         id: 59,
         name: "Delicious Stir Fry Veggie Noodles ",
+        rating: 3,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 30,
         image: food59,
@@ -665,6 +724,7 @@ export const productsData = [
     {
         id: 60,
         name: "Cup of Tequilla Sunrise Cocktail",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 37,
         image: food60,
@@ -674,6 +734,7 @@ export const productsData = [
     {
         id: 61,
         name: "Grilled Spicy Boneless Chicken",
+        rating: 4,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 31,
         image: food61,
@@ -683,6 +744,7 @@ export const productsData = [
             {
         id: 62,
         name: "Special Fried Rice With Chicken",
+        rating: 5,
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 32,
         image: food62 ,

@@ -5,6 +5,7 @@ import { FaCartPlus } from "react-icons/fa";
 import shophomeimg from "../assets/homeimg-shop.jpg";
 import Homematerial from "../pages/Homematerial";
 import btnIcon from "../assets/button-icon.png";
+import Rating from "./Rating";
 
 const ProductList = () => {
   const { products, cart, addToCart } = useContext(ShopContext);
@@ -47,6 +48,7 @@ const ProductList = () => {
 
               <div className=" mt-4 grow">
                 <h4 className="text-lg font-semibold text-gray-900  ">{name}</h4>
+                <Rating rating={product.rating}/>
                 <p className="text-gray-600 text-md">Price $ {price}</p>
               </div>
         
