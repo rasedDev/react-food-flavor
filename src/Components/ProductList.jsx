@@ -23,7 +23,7 @@ const ProductList = () => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-6 text-center mt-20">
+    <div className="max-w-7xl mx-auto px-3 md:px-6 text-center mt-20">
       <h2 className="text-3xl font-semibold mb-8 text-gray-800">
         Our Awesome Foods
       </h2>

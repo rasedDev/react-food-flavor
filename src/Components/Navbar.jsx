@@ -68,7 +68,7 @@ const Navbar = () => {
           <FaTimes />
         </div>
 
-        <NavLink to="/cart" className="cursor-pointer relative">
+        <NavLink to="/cart" onClick={toggleMenu} className="cursor-pointer relative">
           <FaCartPlus className='text-2xl' />
           {quantity > 0 && (
             <sup className='absolute top-0 -right-4 bg-amber-500 text-white w-5 h-5 rounded-full flex items-center justify-center text-xs'>
@@ -77,7 +77,7 @@ const Navbar = () => {
           )}
         </NavLink>
 
-        <ul className='flex flex-col items-center gap-6 text-lg font-semibold uppercase'>
+        <ul onClick={toggleMenu} className='flex flex-col items-center gap-6 text-lg font-semibold uppercase'>
           <li><NavLink to='/' className={({ isActive }) => isActive ? "text-rose-600 font-medium underline" : "hover:text-rose-600"}>Home</NavLink></li>
           <li><NavLink to='/shopfoods' className={({ isActive }) => isActive ? "text-rose-600 font-medium underline" : "hover:text-rose-600"}>Foods</NavLink></li>
           <li><NavLink to='/new-taste' className={({ isActive }) => isActive ? "text-rose-600 font-medium underline" : "hover:text-rose-600"}>New Tasty</NavLink></li>

@@ -13,6 +13,9 @@ import ShopFoods from "./Components/ShopFoods";
 import NewTaste from "./pages/NewTaste";
 import ScrollToTop from "./Components/ScrollToTop";
 import ProductList from "./Components/ProductList";
+import Checkout from "./Components/Checkout";
+import ThankYou from "./Components/ThankYou";
+
 
 const AppLink = () => {
   return (
@@ -41,6 +44,9 @@ const AppLink = () => {
         <Route path="/about" element={<About />} />
         <Route path="/shopfoods" element={<ShopFoods />} />
         <Route path="/new-taste" element={<NewTaste />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/thankyou" element={<ThankYou />} />
+
       </Routes>
       
 

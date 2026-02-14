@@ -20,13 +20,13 @@ const Homematerial = () => {
       </p>
     </div>
 
-    <div className="md:w-1/2 grid grid-cols-2 md:grid-cols-3 gap-6 items-end">
+    <div className="md:w-4/3 grid grid-cols-2 md:grid-cols-3 gap-6 items-end">
       <div className="flex flex-col gap-3 items-center">
-        <img src={materialsImg1} alt="" className=" h-30 w-50 md:h-47 md:w-100 rounded-lg"/>
-        <img src={materialsImg2} alt="" className=" h-30 w-50 md:h-47 md:w-100 rounded-lg"/>
+        <img src={materialsImg1} alt="" className=" h-27 w-40 md:h-60 md:w-100 rounded-lg"/>
+        <img src={materialsImg2} alt="" className=" h-27 w-40 md:h-60 md:w-100 rounded-lg"/>
       </div>
       <div className="md:col-span-2 col-span-1">
-        <img src={materialsImg3} alt="" className="w-full h-70 md:h-110 rounded-lg"/>
+        <img src={materialsImg3} alt="" className="w-full h-65 md:h-150 rounded-lg"/>
       </div>
     </div>
   </div>

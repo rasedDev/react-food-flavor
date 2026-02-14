@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { ShopContext } from "./ShopContext";
 import { FiTrash2 } from "react-icons/fi";
 import { IoMdAdd, IoMdRemove } from "react-icons/io";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Cart = () => {
   const {
@@ -16,8 +16,10 @@ const Cart = () => {
     total,
   } = useContext(ShopContext);
 
+   const navigate = useNavigate();
+
   return (
-    <div className="mt-26 max-w-7xl mx-auto px-6 flex flex-col lg:flex-row gap-8">
+    <div className="mt-26 max-w-7xl mx-auto px-3 md:px-6 flex flex-col lg:flex-row gap-8">
       {/* Left Section */}
       <div className="lg:2/3 bg-white p-6">
         {/* Header */}
@@ -118,7 +120,9 @@ const Cart = () => {
           <span className="text-gray-700">Total Cost</span>
           <span className=" font-medium">$ {isNaN(total) ? 0 : total}</span>
         </div>
-        <button className=" w-full bg-green-500 text-white py-3 mt-4 rounded text-lg cursor-pointer">
+        <button 
+        onClick={() => navigate("/checkout")}
+        className=" w-full bg-green-500 text-white py-3 mt-4 rounded text-lg cursor-pointer">
           CHECKOUT
         </button>
       </div>
