@@ -17,12 +17,12 @@ const Homematerial = () => {
       </h2>
       
       <div className="mb-5 text-left space-y-4 font-semibold ">
-        <p className='flex gap-2 items-center'><FaRegHandPointRight />Quality is our commitment</p>
-        <p className='flex gap-2 items-center'><FaRegHandPointRight />Not in taste, but in meaning</p>
-        <p className='flex gap-2 items-center'><FaRegHandPointRight />Food means no compromise</p>
-        <p className='flex gap-2 items-start'><FaRegHandPointRight className='mt-1 text-xl'/>Taste of trust, commitment to quality</p>
-        <p className='flex gap-2 items-center'><FaRegHandPointRight />Pure quality in every particle</p>
-        <p className='flex gap-2 items-start'><FaRegHandPointRight className='mt-1 text-xl' />No compromise on quality, that’s our core</p>
+        <p className='flex gap-2 items-start'><FaRegHandPointRight className='mt-1 text-xl'/>Quality is our commitment</p>
+        <p className='flex gap-2 items-start'><FaRegHandPointRight className='mt-1 text-xl'/>Not in taste, but in meaning</p>
+        <p className='flex gap-2 items-start'><FaRegHandPointRight className='mt-1 text-xl'/>Food means no compromise</p>
+        <p className='flex gap-2 items-start'><FaRegHandPointRight className='mt-1 text-2xl'/>Taste of trust, commitment to quality</p>
+        <p className='flex gap-2 items-start'><FaRegHandPointRight className='mt-1 text-xl'/>Pure quality in every particle</p>
+        <p className='flex gap-2 items-start'><FaRegHandPointRight className='mt-1 text-2xl' />No compromise on quality, that’s our core</p>
       </div>
     </div>
 
